@@ -9,5 +9,7 @@ namespace ToDo.API.Models
         public string Name { get; set; }
 
         public bool IsCompleted { get; set; }
+
+        public DateTime CreatedAt { get; set; }
     }
 }
